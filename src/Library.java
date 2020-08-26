@@ -44,8 +44,8 @@ public class Library {
 				}
 			}
 		else {
-				System.out.println("There are no Books in this Library");
-				}
+			System.out.println("There are no Books in this Library");
+			}
 		}
 	static void booksInSecondLibrary() {
 		System.out.println("Available Books in Second Library Are as Follows:");
@@ -60,4 +60,4 @@ public class Library {
 			System.out.println("There are no Books in this Library");
 			}
 		}	
-}
+	}
