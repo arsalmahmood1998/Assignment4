@@ -7,7 +7,7 @@ public class Library {
 	static ArrayList <Book> secondLib;
 	Library(String _address){
 		address=_address;
-	}
+		}
 	public static void main(String [] args) {
 		firstLibrary= new Library ("Sui Gas Society");
 		secondLibrary= new Library ("Walton");
@@ -20,12 +20,12 @@ public class Library {
 		secondLib=new ArrayList<Book>();
 		booksInFirstLibrary();
 		booksInSecondLibrary();
-		firstLib.get(0).isBookBorrowed("The Lord Of The Rings");
-		firstLib.get(0).borrowBook("The Lord Of The Rings");
-		firstLib.get(1).isBookBorrowed("A Tale of Two Cities");
-		firstLib.get(0).borrowBook("The Lord Of The Rings");
-		firstLib.get(1).returned("A Tale of Two Cities");
+		firstLib.get(0).isBookBorrowed("The Da VinCI Code");
+		firstLib.get(0).borrowBook("The Da VinCI Code");
+		firstLib.get(3).borrowBook("The Lord of the Rings");
+		firstLib.get(3).returned("The Lord of the Rings");
 		booksInFirstLibrary();
+
 	}
 	static void printDetails() {
 		System.out.println("Library Hours are as Follows:");
@@ -61,3 +61,4 @@ public class Library {
 			}
 		}	
 	}
+ 
